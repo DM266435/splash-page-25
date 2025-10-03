@@ -52,15 +52,15 @@ Grid
     box-sizing: border-box;
 }
 body {
-    background-color: #0d080e;
-    background-image: url(img/ai-generated-8602282_1280.jpg);
+    background-color: #0d1015;
+    background-image: url(img/Mountain.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: 100px 0 0 0;
     margin: 0;
 }
 .wrapper {
-   background-color: rgba(0, 0, 0, 0.5);
+   background-color: rgba(1, 59, 4, 0.5);
    float: right;
    margin: 80px 0 0 0;
    max-width: 420px;
@@ -87,14 +87,18 @@ Typography
 h1,
 p {
    color: #ffffff;
-   font-family: sans-serif;
+   font-family: "Fira Sans", sans-serif;
+   font-weight: 100;
+   font-style: normal;
    margin-bottom: 22px;
 }
 h1 {
    text-shadow: 2px 2px #000000;
    float: left;
    font-size: 2.5em;
-   font-family: "Crete Round", sans-serif;
+   font-family: "Fira Sans", sans-serif;
+   font-weight: 100;
+   font-style: normal;
 }
 p {
    clear: both;
@@ -102,6 +106,8 @@ p {
    font-size: 14px;
    line-height: 22px;
 }
+
+
 /*
 =================================================
 Footer
